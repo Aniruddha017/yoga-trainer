@@ -1,0 +1,66 @@
+{
+  "image": "data\\reference_poses\\images\\Akarna_Dhanurasana_front\\Akarna_Dhanurasana_image_1.jpg",
+  "total_angles": 3,
+  "measurements": [
+    {
+      "name": "Right Knee",
+      "target_angle": 56.2,
+      "tolerance": 25.0,
+      "weight": 5.0,
+      "points": [
+        {
+          "x": 586,
+          "y": 593
+        },
+        {
+          "x": 435,
+          "y": 484
+        },
+        {
+          "x": 715,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "name": "right hand",
+      "target_angle": 173.9,
+      "tolerance": 20.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 603,
+          "y": 332
+        },
+        {
+          "x": 629,
+          "y": 432
+        },
+        {
+          "x": 680,
+          "y": 567
+        }
+      ]
+    },
+    {
+      "name": "left hand",
+      "target_angle": 39.3,
+      "tolerance": 25.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 668,
+          "y": 281
+        },
+        {
+          "x": 770,
+          "y": 192
+        },
+        {
+          "x": 755,
+          "y": 281
+        }
+      ]
+    }
+  ]
+}

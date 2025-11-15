@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Pose Accuracy Measurement</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>🧘 Yoga Pose Accuracy Measurement</h1>
+            <p>Compare your yoga poses with reference images and get real-time feedback</p>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Control Panel -->
+            <div class="control-panel">
+                <div class="form-group">
+                    <label for="poseSelector">Select Yoga Pose:</label>
+                    <select id="poseSelector" disabled>
+                        <option value="">Loading poses...</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="viewSelector">Camera View:</label>
+                    <select id="viewSelector" disabled>
+                        <option value="">Select a pose first</option>
+                    </select>
+                </div>
+                
+                <div class="button-group">
+                    <button id="startCameraBtn" class="btn btn-primary">Start Camera</button>
+                    <button id="stopCameraBtn" class="btn btn-secondary" disabled>Stop Camera</button>
+                </div>
+            </div>
+
+            <!-- Video and Canvas Section -->
+            <div class="video-section">
+                <!-- User Camera -->
+                <div class="video-container">
+                    <h3>Your Pose</h3>
+                    <div class="video-wrapper">
+                        <video id="webcam" autoplay playsinline></video>
+                        <canvas id="poseCanvas"></canvas>
+                    </div>
+                    <div id="cameraStatus" class="status-message">Camera not started</div>
+                </div>
+
+                <!-- Reference Pose -->
+                <div class="reference-container">
+                    <h3>Reference Pose</h3>
+                    <div class="reference-wrapper">
+                        <img id="referenceImage" src="" alt="Select a pose to see reference">
+                        <div id="referencePlaceholder" class="placeholder">
+                            <p>Select a yoga pose from the dropdown above</p>
+                        </div>
+                    </div>
+                    <div id="poseDescription" class="pose-info"></div>
+                </div>
+            </div>
+
+            <!-- Accuracy Results -->
+            <div class="results-section">
+                <h2>Accuracy Results</h2>
+                <div id="resultsContainer" class="results-hidden">
+                    <!-- Overall Accuracy -->
+                    <div class="accuracy-card">
+                        <h3>Overall Accuracy</h3>
+                        <div class="accuracy-circle">
+                            <div id="overallAccuracy" class="accuracy-value">--</div>
+                            <div class="accuracy-label">%</div>
+                        </div>
+                    </div>
+
+                    <!-- Breakdown -->
+                    <div class="breakdown-card">
+                        <h3>Score Breakdown</h3>
+                        <div class="score-item">
+                            <span>Joint Angles:</span>
+                            <span id="angleScore" class="score-value">--</span>
+                        </div>
+                        <div class="score-item">
+                            <span>Position Matching:</span>
+                            <span id="distanceScore" class="score-value">--</span>
+                        </div>
+                    </div>
+
+                    <!-- General Feedback -->
+                    <div class="feedback-card">
+                        <h3>Feedback</h3>
+                        <p id="generalFeedback" class="feedback-text">Capture a pose to get feedback</p>
+                    </div>
+
+                    <!-- Joint Feedback -->
+                    <div class="joint-feedback-card">
+                        <h3>Joint-by-Joint Analysis</h3>
+                        <div id="jointFeedback" class="joint-list">
+                            <p class="placeholder-text">Detailed feedback will appear here</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="resultsPlaceholder" class="placeholder-message">
+                    Select a pose and start your camera to see live accuracy
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Powered by MediaPipe Pose Detection | Built with FastAPI</p>
+        </footer>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="spinner"></div>
+        <p>Processing pose...</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/api_client.js"></script>
+    <script src="/static/js/camera.js"></script>
+    <script src="/static/js/pose_overlay.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
