@@ -505,7 +505,7 @@ POSE_ANGLE_DEFINITIONS: Dict[str, PoseAngleConfig] = {
                 tolerance=25.0,
                 weight=2.0
             ),
-            AngleDefinition(
+            AngleDefinition(   
                 name="left leg",
                 points=('left_hip', 'left_knee', 'left_ankle'),
                 target_angle=92.8,
