@@ -1,0 +1,86 @@
+{
+  "image": "data\\reference_poses\\images\\Bharadvajas_Twist_pose_or_Bharadvajasana_I__front\\Bharadvajas_Twist_pose_or_Bharadvajasana_I__image_2.jpg",
+  "total_angles": 4,
+  "measurements": [
+    {
+      "name": "left hand",
+      "target_angle": 174.7,
+      "tolerance": 30.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 439,
+          "y": 273
+        },
+        {
+          "x": 359,
+          "y": 380
+        },
+        {
+          "x": 255,
+          "y": 495
+        }
+      ]
+    },
+    {
+      "name": "right hand",
+      "target_angle": 172.2,
+      "tolerance": 30.0,
+      "weight": 1.0,
+      "points": [
+        {
+          "x": 323,
+          "y": 210
+        },
+        {
+          "x": 386,
+          "y": 287
+        },
+        {
+          "x": 458,
+          "y": 354
+        }
+      ]
+    },
+    {
+      "name": "right leg",
+      "target_angle": 14.3,
+      "tolerance": 25.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 367,
+          "y": 413
+        },
+        {
+          "x": 273,
+          "y": 529
+        },
+        {
+          "x": 441,
+          "y": 404
+        }
+      ]
+    },
+    {
+      "name": "left leg",
+      "target_angle": 24.2,
+      "tolerance": 25.0,
+      "weight": 3.0,
+      "points": [
+        {
+          "x": 405,
+          "y": 413
+        },
+        {
+          "x": 455,
+          "y": 543
+        },
+        {
+          "x": 461,
+          "y": 435
+        }
+      ]
+    }
+  ]
+}

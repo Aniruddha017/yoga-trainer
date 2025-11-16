@@ -1,0 +1,86 @@
+{
+  "image": "data\\reference_poses\\images\\Bound_Angle_Pose_or_Baddha_Konasana__front\\Bound_Angle_Pose_or_Baddha_Konasana__image_179.jpg",
+  "total_angles": 4,
+  "measurements": [
+    {
+      "name": "right hand",
+      "target_angle": 175.4,
+      "tolerance": 20.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 348,
+          "y": 338
+        },
+        {
+          "x": 366,
+          "y": 499
+        },
+        {
+          "x": 396,
+          "y": 653
+        }
+      ]
+    },
+    {
+      "name": "left hand",
+      "target_angle": 178.4,
+      "tolerance": 20.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 593,
+          "y": 347
+        },
+        {
+          "x": 565,
+          "y": 503
+        },
+        {
+          "x": 535,
+          "y": 647
+        }
+      ]
+    },
+    {
+      "name": "right leg",
+      "target_angle": 16.9,
+      "tolerance": 25.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 396,
+          "y": 577
+        },
+        {
+          "x": 140,
+          "y": 621
+        },
+        {
+          "x": 444,
+          "y": 659
+        }
+      ]
+    },
+    {
+      "name": "left leg",
+      "target_angle": 13.2,
+      "tolerance": 25.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 503,
+          "y": 591
+        },
+        {
+          "x": 787,
+          "y": 625
+        },
+        {
+          "x": 482,
+          "y": 659
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "image": "data\\reference_poses\\images\\Bridge_Pose_or_Setu_Bandha_Sarvangasana__front\\Bridge_Pose_or_Setu_Bandha_Sarvangasana__image_37.jpg",
+  "total_angles": 4,
+  "measurements": [
+    {
+      "name": "right leg",
+      "target_angle": 63.5,
+      "tolerance": 20.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 661,
+          "y": 533
+        },
+        {
+          "x": 668,
+          "y": 346
+        },
+        {
+          "x": 491,
+          "y": 426
+        }
+      ]
+    },
+    {
+      "name": "left leg",
+      "target_angle": 61.1,
+      "tolerance": 20.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 652,
+          "y": 533
+        },
+        {
+          "x": 673,
+          "y": 344
+        },
+        {
+          "x": 488,
+          "y": 421
+        }
+      ]
+    },
+    {
+      "name": "right hand",
+      "target_angle": 177.8,
+      "tolerance": 20.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 297,
+          "y": 538
+        },
+        {
+          "x": 413,
+          "y": 550
+        },
+        {
+          "x": 538,
+          "y": 558
+        }
+      ]
+    },
+    {
+      "name": "left hand",
+      "target_angle": 176.0,
+      "tolerance": 20.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 305,
+          "y": 526
+        },
+        {
+          "x": 444,
+          "y": 527
+        },
+        {
+          "x": 534,
+          "y": 534
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "image": "data\\reference_poses\\images\\Camel_Pose_or_Ustrasana__side\\Camel_Pose_or_Ustrasana__image_2.jpg",
+  "total_angles": 4,
+  "measurements": [
+    {
+      "name": "right hand",
+      "target_angle": 171.7,
+      "tolerance": 20.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 326,
+          "y": 319
+        },
+        {
+          "x": 343,
+          "y": 462
+        },
+        {
+          "x": 339,
+          "y": 614
+        }
+      ]
+    },
+    {
+      "name": "left hand",
+      "target_angle": 169.4,
+      "tolerance": 20.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 330,
+          "y": 319
+        },
+        {
+          "x": 350,
+          "y": 461
+        },
+        {
+          "x": 343,
+          "y": 616
+        }
+      ]
+    },
+    {
+      "name": "right leg",
+      "target_angle": 93.2,
+      "tolerance": 20.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 550,
+          "y": 403
+        },
+        {
+          "x": 540,
+          "y": 640
+        },
+        {
+          "x": 315,
+          "y": 643
+        }
+      ]
+    },
+    {
+      "name": "left leg",
+      "target_angle": 88.0,
+      "tolerance": 25.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 534,
+          "y": 404
+        },
+        {
+          "x": 523,
+          "y": 630
+        },
+        {
+          "x": 318,
+          "y": 613
+        }
+      ]
+    }
+  ]
+}

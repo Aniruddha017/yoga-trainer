@@ -1,0 +1,106 @@
+{
+  "image": "data\\reference_poses\\images\\Chair_Pose_or_Utkatasana__side\\Chair_Pose_or_Utkatasana__image_9.jpg",
+  "total_angles": 5,
+  "measurements": [
+    {
+      "name": "right leg",
+      "target_angle": 90.5,
+      "tolerance": 25.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 528,
+          "y": 498
+        },
+        {
+          "x": 331,
+          "y": 556
+        },
+        {
+          "x": 387,
+          "y": 753
+        }
+      ]
+    },
+    {
+      "name": "left leg",
+      "target_angle": 92.8,
+      "tolerance": 25.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 527,
+          "y": 487
+        },
+        {
+          "x": 323,
+          "y": 556
+        },
+        {
+          "x": 372,
+          "y": 728
+        }
+      ]
+    },
+    {
+      "name": "right hand",
+      "target_angle": 177.0,
+      "tolerance": 25.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 351,
+          "y": 261
+        },
+        {
+          "x": 250,
+          "y": 171
+        },
+        {
+          "x": 148,
+          "y": 70
+        }
+      ]
+    },
+    {
+      "name": "25",
+      "target_angle": 179.4,
+      "tolerance": 25.0,
+      "weight": 2.0,
+      "points": [
+        {
+          "x": 356,
+          "y": 259
+        },
+        {
+          "x": 244,
+          "y": 167
+        },
+        {
+          "x": 150,
+          "y": 88
+        }
+      ]
+    },
+    {
+      "name": "shoulder",
+      "target_angle": 70.7,
+      "tolerance": 30.0,
+      "weight": 4.0,
+      "points": [
+        {
+          "x": 359,
+          "y": 273
+        },
+        {
+          "x": 526,
+          "y": 482
+        },
+        {
+          "x": 323,
+          "y": 553
+        }
+      ]
+    }
+  ]
+}
