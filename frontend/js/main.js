@@ -15,7 +15,7 @@ let animationFrameId = null;
 // Smoothing for stable display
 let smoothedKeypoints = null;  // Smoothed keypoints to reduce jitter
 let smoothedAccuracy = null;   // Smoothed accuracy score
-const SMOOTHING_FACTOR = 0.8;  // Lower = more smoothing, 0.3 = 30% new, 70% old
+const SMOOTHING_FACTOR = 0.9;  // Lower = more smoothing, higher = faster response (0.5 = 50% new, 50% old)
 const MIN_CONFIDENCE_THRESHOLD = 0.5;  // Only update if pose confidence is good
 
 // Initialize on page load
